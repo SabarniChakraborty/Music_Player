@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { Box, Typography, List, ListItem, ListItemText, ListItemSecondaryAction, IconButton, Card, CardContent, Slider } from '@mui/material';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
@@ -6,6 +5,7 @@ import PauseIcon from '@mui/icons-material/Pause';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
+
 
 const MusicPlayer = () => {
   const [playlist, setPlaylist] = useState([]);
